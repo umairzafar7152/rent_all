@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "865643490621",
+    "project_id": "rent-all-deb4b",
+    "storage_bucket": "rent-all-deb4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865643490621:android:10a68e87af2595f5e2a954",
+        "android_client_info": {
+          "package_name": "com.zafar.umair.rent_all"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865643490621-ju5ih04nqjfeth2gimpjnjfnaf6v57g8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASH5z5ICf-UEs8Y9kjknUYAQLIauRF0ec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865643490621-ju5ih04nqjfeth2gimpjnjfnaf6v57g8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

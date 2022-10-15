@@ -1,0 +1,73 @@
+name: rent_all
+description: A renting app
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.0.0
+  image_picker: ^0.7.1
+  shared_preferences: ^2.0.5
+  carousel_slider: ^3.0.0
+  firebase_core: ^1.0.1
+  firebase_database: ^6.1.0
+  firebase_auth: ^1.0.1
+
+  provider: ^4.3.2+1
+  cloud_firestore: ^1.0.1
+  firebase_storage: ^8.0.0
+  path_provider: ^2.0.1
+  google_maps_flutter: ^2.0.1
+  location: ^4.1.1
+  date_time_picker: ^2.0.0
+  connectivity: ^3.0.3
+  geolocator: ^7.0.1
+  http_auth: ^1.0.0
+  webview_flutter: ^2.0.3
+  fluttertoast: ^8.0.3
+  url_launcher: ^6.0.3
+  flutter_pdfview: ^1.0.4
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.9.0
+
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.jpg"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/avatar_1.jpg
+    - assets/appliance.png
+    - assets/electronics.png
+    - assets/equipment.png
+    - assets/furniture.png
+    - assets/machinery.png
+    - assets/others.png
+    - assets/outdoor.png
+    - assets/real_estate.png
+    - assets/sport_good.png
+    - assets/tool.png
+    - assets/image_icon.jpg
+    - assets/loading.png
+    - assets/icon.jpg
+
+  fonts:
+    - family: Burbank
+      fonts:
+        - asset: assets/fonts/burbank-big-regular-medium.otf
